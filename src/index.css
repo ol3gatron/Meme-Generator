@@ -41,3 +41,40 @@ header > h3 {
   margin-left: auto;
   font-size: 12px;
 }
+
+.main {
+  padding: 35px;
+}
+
+.main--inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-line, .bottom-line {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'Karla', sans-serif;
+}
+
+.first-line {
+  margin-right: 10px;
+}
+
+form > button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #fff;
+  background: rgb(103,34,128);
+  background: linear-gradient(90deg, rgba(103,34,128,1) 0%, rgba(166,38,211,1) 100%);
+  font-family: 'Karla', sans-serif;
+  cursor: pointer;
+}
