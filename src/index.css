@@ -44,6 +44,10 @@ header > h3 {
 
 .main {
   padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main--inputs {
@@ -77,4 +81,10 @@ header > h3 {
   background: linear-gradient(90deg, rgba(103,34,128,1) 0%, rgba(166,38,211,1) 100%);
   font-family: 'Karla', sans-serif;
   cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
 }
